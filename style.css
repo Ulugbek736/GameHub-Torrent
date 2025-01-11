@@ -111,7 +111,11 @@ footer {
     padding: 10px 0;
     background: #121212;
     margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
 
 @media (max-width: 650px) {
     header .logo {
@@ -142,3 +146,50 @@ footer {
         grid-template-columns: repeat(4, 1fr);
     }
 }
+body {
+    display: flex;
+    flex-direction: row-reverse; /* Sidebarni o'ng tomonga joylash */
+  }
+  .sidebar {
+    width: 250px;
+    background-color: #2a2a2a;
+    color: white;
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar ul li {
+    padding: 10px;
+  }
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .sidebar ul li a:hover {
+    color: #fff27c;
+  }
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none; /* Mobil ekranlar uchun sidebarni yashirish */
+    }
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  @media (min-width: 768px) {
+    .hamburger-menu {
+      display: none; /* Katta ekranlarda hamburgerni yashirish */
+    }
+  }
+  
+
+  
