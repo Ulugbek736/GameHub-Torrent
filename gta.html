@@ -83,6 +83,16 @@
       border-radius: 5px;
       margin-bottom: 10px;
     }
+    .btn-container a {
+    margin-bottom: 10px; /* Tugmalar orasidagi bo'sh joy */
+    text-align: center;  /* Tugmalarni markazlash */
+    display: inline-block; /* Qatorlar orasida joylashadi */
+}
+
+.btn-container {
+    text-align: center; /* Tugmalarni konteyner ichida markazga qo'yish */
+}
+
   </style>
 </head>
 <body>
@@ -164,7 +174,18 @@
     <!-- Download Section -->
     <div class="game-details">
       <h2 class="section-title">Download</h2>
-      <a href="https://itorrents-igruha.org/engine/download.php?id=72092" download class="btn btn-custom btn-lg d-block mx-auto">Download Torrent</a>
+      <div class="btn-container">
+        <a href="https://itorrents-igruha.org/engine/download.php?id=72092" 
+           download 
+           class="btn btn-custom btn-lg d-block mx-auto">Download Torrent</a>
+    
+        <a href="https://www.utorrent.com/intl/ru/desktop/#comparison-panels" 
+           download 
+           class="btn btn-custom btn-lg d-block mx-auto">You Haven't torrent ?</a>
+                
+           
+        </div>
+    
     </div>
   </div>
 
