@@ -40,471 +40,665 @@
       border-radius: 20px;
       text-decoration: none;
     }
+
     body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
-  }
-  
-  /* O'yinlar uchun menu konteyneri */
-  .menu-container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-  }
-  
-  /* Har bir o'yin uchun menu item */
-  .menu-item {
-    background-color: #333;
-    border-radius: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    width: calc(20% - 10px);
-    margin: 0 5px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  }
-  
-  /* Hover effekt */
-  .menu-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 15px rgba(0, 0, 255, 0.5);
-  }
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+    }
+
+    /* O'yinlar uchun menu konteyneri */
+    .menu-container {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+    }
+
+    /* Har bir o'yin uchun menu item */
+    .menu-item {
+      background-color: #333;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      width: calc(20% - 10px);
+      margin: 0 5px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    }
+
+    /* Hover effekt */
+    .menu-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 15px rgba(0, 0, 255, 0.5);
+    }
   </style>
 </head>
 
 <body>
-  
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">GameHub Torrent</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search games" aria-label="Search">
-                            <button class="btn btn-search" type="submit">Search</button>
-                        </form>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-  
-  <div class="global-container">
-    <div class="content-left-column">
-      <div class="module-title">
-        <div class="articles">
-          <div class="articles-film-cuted">
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/16503-dread-dawn.html" title="Dread Dawn"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg"
-                    alt="Dread Dawn" title="Dread Dawn" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a href="https://itorrents-igruha.org/16503-dread-dawn.html">Dread
-                    Dawn</a></div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/8792-icarus-2021.html" title="ICARUS"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg" alt="ICARUS"
-                    title="ICARUS" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a href="https://itorrents-igruha.org/8792-icarus-2021.html">ICARUS</a>
-                </div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/18737-tankhead.html" title="TankHead"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg"
-                    alt="TankHead" title="TankHead" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a href="https://itorrents-igruha.org/18737-tankhead.html">TankHead</a>
-                </div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/9462-spacebourne-2.html" title="SpaceBourne 2"><img
-                    class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
-                    alt="SpaceBourne 2" title="SpaceBourne 2" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a
-                    href="https://itorrents-igruha.org/9462-spacebourne-2.html">SpaceBourne
-                    2</a>
-                </div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/18921-s4u-citypunk-2011-and-love-punch.html"
-                  title="S4U: CITYPUNK 2011 AND LOVE PUNCH"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2025-01/1736520376_library_600x900_2x.jpg"
-                    alt="S4U: CITYPUNK 2011 AND LOVE PUNCH" title="S4U: CITYPUNK 2011 AND LOVE PUNCH" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a
-                    href="https://itorrents-igruha.org/18921-s4u-citypunk-2011-and-love-punch.html">S4U:
-                    CITYPUNK 2011 AND LOVE PUNCH</a></div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/18917-reviver.html" title="Reviver"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2025-01/1736517204_library_600x900_2x.jpg"
-                    alt="Reviver" title="Reviver" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a href="https://itorrents-igruha.org/18917-reviver.html">Reviver</a>
-                </div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/18918-the-rangers-in-the-south.html"
-                  title="The Rangers In The South"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2025-01/1736518127_library_600x900_2x.jpg"
-                    alt="The Rangers In The South" title="The Rangers In The South" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a
-                    href="https://itorrents-igruha.org/18918-the-rangers-in-the-south.html">The
-                    Rangers In The South</a></div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/18919-behind-glass-aquarium-simulator.html"
-                  title="Behind Glass: Aquarium Simulator"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2025-01/1736518925_library_600x900_2x.jpg"
-                    alt="Behind Glass: Aquarium Simulator" title="Behind Glass: Aquarium Simulator" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a
-                    href="https://itorrents-igruha.org/18919-behind-glass-aquarium-simulator.html">Behind
-                    Glass: Aquarium Simulator</a></div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/18920-abeline-rush.html" title="Abeline Rush"><img
-                    class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2025-01/1736519320_library_600x900_2x.jpg"
-                    alt="Abeline Rush" title="Abeline Rush" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a href="https://itorrents-igruha.org/18920-abeline-rush.html">Abeline
-                    Rush</a>
-                </div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/14249-ship-graveyard-simulator-2.html"
-                  title="Ship Graveyard Simulator 2"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2022-11/1668071795_library_600x900_2x.jpg"
-                    alt="Ship Graveyard Simulator 2" title="Ship Graveyard Simulator 2" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a
-                    href="https://itorrents-igruha.org/14249-ship-graveyard-simulator-2.html">Ship
-                    Graveyard Simulator 2</a></div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/13439-first-dwarf.html" title="First Dwarf"><img
-                    class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2024-03/1711468902_library_600x900_2x.jpg"
-                    alt="First Dwarf" title="First Dwarf" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a href="https://itorrents-igruha.org/13439-first-dwarf.html">First
-                    Dwarf</a></div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/17528-yaoling-mythical-journey.html"
-                  title="Yaoling: Mythical Journey"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2024-06/1719389513_library_600x900_2x.jpg"
-                    alt="Yaoling: Mythical Journey" title="Yaoling: Mythical Journey" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a
-                    href="https://itorrents-igruha.org/17528-yaoling-mythical-journey.html">Yaoling:
-                    Mythical Journey</a></div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/5584-forza-motorsport.html" title="Forza Motorsport 2023"><img
-                    class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2023-06/1686512872_library_600x900_2x.jpg"
-                    alt="Forza Motorsport 2023" title="Forza Motorsport 2023" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a href="https://itorrents-igruha.org/5584-forza-motorsport.html">Forza
-                    Motorsport
-                    2023</a></div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/11088-the-dark-eye-chains-of-satinav.html"
-                  title="The Dark Eye: Chains of Satinav"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2024-12/1735402357_library_600x900_2x.jpg"
-                    alt="The Dark Eye: Chains of Satinav" title="The Dark Eye: Chains of Satinav" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a
-                    href="https://itorrents-igruha.org/11088-the-dark-eye-chains-of-satinav.html">The
-                    Dark Eye: Chains of Satinav</a></div>
-              </center>
-
-
-            </div>
-            <div class="article-film">
-              <div class="article-film-descr">
-                <div class="article-film-descr-bottom"></div>
-
-              </div>
-              <div class="article-film-image">
-
-
-
-
-                <div class="article-film-badge"></div>
-                <a href="https://itorrents-igruha.org/2450-tunguska-the-visitation.html"
-                  title="Tunguska The Visitation"><img class="article-img"
-                    src="https://itorrents-igruha.org/uploads/posts/2024-07/1720344509_library_600x900_2x.jpg"
-                    alt="Tunguska The Visitation" title="Tunguska The Visitation" /></a>
-
-
-              </div>
-
-              <center>
-                <div class="article-film-title"><a
-                    href="https://itorrents-igruha.org/2450-tunguska-the-visitation.html">Tunguska
-                    The Visitation</a></div>
-              </center>
-
-
-            </div>
-          </div>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">GameHub Torrent</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search games" aria-label="Search">
+              <button class="btn btn-search" type="submit">Search</button>
+            </form>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
+
+
+  <!-- Game List -->
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">Featured Games</h2>
+    <div class="row">
+      <!-- O'yin 1 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 1 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 1 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+      <!-- O'yin 1 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+
+      <!-- O'yin 1 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 4 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-12/1672139890_cover.jpg"
+              alt="Game 4">
+            <div class="article-film-title">SpaceBourne 2</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 5 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 5">
+            <div class="article-film-title">Rogue Planet</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-02/1707292413_library_600x900_2x.jpg" alt="Game 1">
+            <div class="article-film-title">Dread Dawn</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 2 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img" src="https://itorrents-igruha.org/uploads/posts/2022-09/1663360850_cover.jpg"
+              alt="Game 2">
+            <div class="article-film-title">ICARUS</div>
+          </a>
+        </div>
+      </div>
+
+      <!-- O'yin 3 -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="article-film">
+          <a href="#">
+            <img class="article-img"
+              src="https://itorrents-igruha.org/uploads/posts/2024-12/1734259917_tankhead-c7n4p.jpg" alt="Game 3">
+            <div class="article-film-title">TankHead</div>
+          </a>
+        </div>
+      </div>
+
+      
+
+      <!-- Yana o'yinlar qo'shilishi mumkin -->
+    </div>
+
   </div>
 
   <div class="container mt-4">
